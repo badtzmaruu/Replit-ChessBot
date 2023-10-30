@@ -1,16 +1,15 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     padding-top: 20px;
     min-height: 70px;
-     border-bottom: #bbb 1px solid;
+    border-bottom: #cecece 1px solid;
 }
 header h1 {
     margin: 0;
@@ -20,32 +19,33 @@ header h1 {
 nav {
     text-align: center;
     padding: 10px 0;
-    background-color: #444;
+    background-color: #535353;
 }
 nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     padding: 15px 20px;
 }
 nav a:hover {
-    background-color: #555;
+    background-color: #5a5a5a;
 }
 .container {
-    width: 80%;
+    width: 68%;
     margin: auto;
     overflow: hidden;
     padding: 20px;
+    float: left; 
 }
 .news-item {
-    background: #fff;
+    background: #ffffff;
     margin: 10px 0;
     padding: 20px;
-     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
     position: fixed;
@@ -53,15 +53,11 @@ footer {
     width: 100%;
 }
 .sidebar {
-    float: right;
-    width: 20%;
+    width: 25%;
     padding: 20px;
-    background-color: #f4f4f4;
-}
-.sidebar h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.sidebar .news-item {
-    margin-bottom: 15px;
+    background-color: #ffffff;
+    float: right;
+    border: 1px solid #cecece; 
+    border-radius: 10px; 
+    margin-right: 2%;
 }
