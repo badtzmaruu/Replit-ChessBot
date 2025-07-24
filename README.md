@@ -1,26 +1,44 @@
-# Project Showcase
+# Daily Chess Puzzle Discord Bot
 
-Welcome to my **project showcase**! This repository contains a collection of **projects** I've developed over the years to demonstrate my skills and experience as a software engineer. Each project is a testament to my **dedication**, **creativity**, and **problem-solving abilities**. Feel free to explore and reach out if you have any questions or feedback.
+A custom Discord bot built for the Belgium Campus Chess Club to promote daily chess engagement among members.
 
-## Projects
+## 🧠 Features
 
-### [Project Name 1](link_to_project_1)
-- **Description:** Brief description of project 1.
-- **Technologies:** List of technologies used in project 1.
+- Fetches the [Chess.com Daily Puzzle](https://www.chess.com/daily-chess-puzzle) every day
+- Automatically posts the puzzle to a Discord server channel
+- Tags members with a specific role (e.g. `@DailyPuzzle`) to encourage participation
 
-### [Project Name 2](link_to_project_2)
-- **Description:** Brief description of project 2.
-- **Technologies:** List of technologies used in project 2.
+## ⚙️ Technologies Used
 
-### [Project Name 3](link_to_project_3)
-- **Description:** Brief description of project 3.
-- **Technologies:** List of technologies used in project 3.
+- **Node.js** – runtime for JavaScript
+- **Discord.js** – for interacting with the Discord API
+- **Chess.com API** – for fetching daily puzzles
+- **Replit** – used as a hosting platform
 
-## Contact
+## 🔔 Use Case
 
-If you'd like to learn more about any of these projects or discuss potential opportunities, feel free to reach out:
+This bot was originally created by the founder of the Belgium Campus Chess Club. The goal was to boost activity and community interaction by sharing the daily chess puzzle with all members tagged under the `@DailyPuzzle` role.
 
-- **Email:** [your_email@example.com](mailto:your_email@example.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+## 🚀 Deployment
 
-Thank you for considering my work!
+Hosted on [Replit](https://replit.com/) using a basic cron-like scheduler to run daily. Alternatively, you can run it locally using Node.js and a task scheduler (like `cron` on Linux or Task Scheduler on Windows).
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/daily-chess-discord-bot.git
+   cd daily-chess-discord-bot
+2. Install dependencies
+   ```bash
+   npm install
+3. Create a .env file and add your bot token and channel ID:
+   ```bash
+   DISCORD_TOKEN=your_token_here
+   PUZZLE_CHANNEL_ID=your_channel_id_here
+   ROLE_ID=your_daily_puzzle_role_id
+4. Run the application:
+   ```bash
+   node index.js
+ 
+
